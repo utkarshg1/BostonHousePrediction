@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>ML API</title>
+  <title>UJG Boston Housing Project</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -18,8 +18,8 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-      <input type="text" name="CRIM" placeholder="CRIM" required="required" /><br>
-    	<input type="text" name="ZN" placeholder="ZN" required="required" /><br>
+      <input type="text" name="CRIM (CRIME)" placeholder="CRIM" required="required" /><br>
+    	<input type="text" name="ZN (ZONED)" placeholder="ZN" required="required" /><br>
         <input type="text" name="INDUS" placeholder="INDUS" required="required" /><br>
         <input type="text" name="CHAS" placeholder="CHAS" required="required" /><br>
         <input type="text" name="NOX" placeholder="NOX" required="required" /><br>
