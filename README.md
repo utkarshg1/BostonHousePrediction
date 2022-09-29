@@ -26,7 +26,6 @@ Installing python libraries
 '''
 
 Github Process
-
 '''
 1. Configure Git CLI Username : git --global user.name "Name"
 2. Configure Git CLI email: git --global user.email "email@domain.com"
